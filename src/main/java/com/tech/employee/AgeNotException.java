@@ -1,8 +1,8 @@
 package com.tech.employee;
 
 public class AgeNotException extends Exception {
-	public AgeNotException (String mes) {
-		super (mes);
+	public AgeNotException (String txt) {
+		super (txt);
 	}
 
 }
